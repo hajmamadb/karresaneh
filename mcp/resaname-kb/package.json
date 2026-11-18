@@ -1,0 +1,21 @@
+{
+  "name": "resaname-kb-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the Resaname scientific knowledge core (هسته دانش علمی). Exposes search, navigation, registries and audited write tools over the kb_* tables.",
+  "type": "module",
+  "bin": {
+    "resaname-kb-mcp": "server.mjs"
+  },
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "mysql2": "^3.9.0",
+    "zod": "^3.23.0"
+  }
+}

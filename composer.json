@@ -1,0 +1,19 @@
+{
+  "name": "resaname/intelligence",
+  "description": "Editorial intelligence workflow for Resaname",
+  "type": "project",
+  "require": {
+    "php": ">=8.2",
+    "ext-pdo": "*",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Resaname\\": "app/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true
+  }
+}

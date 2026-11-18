@@ -1,0 +1,7 @@
+installers/
+*.msi
+vendor/
+storage/logs/*
+!storage/logs/.gitkeep
+storage/*.log
+*.err.log
